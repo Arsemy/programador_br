@@ -1,0 +1,57 @@
+body{
+    background-color:orange;
+}
+
+h1{
+    text-indent: 20px;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.0em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.card{
+    background-image: url(./assets/backgorund.png);
+    background-repeat: no-repeat;
+    height: 320px;
+    width: 650px;
+    padding: 3px 10px;
+    margin: auto;
+    margin-top: 10%;
+    box-sizing: border-box;
+}
+
+.list{
+    width: 230px;
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    font-size: 30px;
+    color: black;
+    list-style-position:  inside;
+    margin-top: 30px;
+    color:black;
+    font-family: "Bakbak One";
+}
+
+#l1{
+    list-style-image: url(./assets/Insta.png);
+}
+
+#l2{
+    list-style-image: url(./assets/Twitter.png);
+
+}
+
+#l3{
+    list-style-image: url(./assets/Youtube.png);
+
+}
