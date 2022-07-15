@@ -21,6 +21,7 @@ body{
     width: 80px;
     position: sticky;
     padding: 10px;
+    top: 1px;
     left: 100%;
     text-align: center;
 }
