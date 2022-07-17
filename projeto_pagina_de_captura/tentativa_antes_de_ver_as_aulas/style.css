@@ -1,0 +1,175 @@
+html{
+    font-size: 20px;
+}
+
+body{
+    margin: 0px;
+    background-color: black;
+}
+
+.text-white{
+    color: white;
+}
+
+/* ----------------------------- */
+
+.participe-header{
+    background-color: rgb(98, 177, 223);
+
+    text-align: center;
+    padding: 20px 0px;
+    margin: auto;
+    width: 60%;
+}
+
+.participe{
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    
+    margin: 0px;
+}
+
+/* ----------------------------- */
+
+.palestra{
+    background-color: blue;
+
+    margin: auto;
+    width: 60%;
+    height: 600px;
+    font-family: sans-serif;
+    font-size: 0.95rem;
+
+
+    position: relative;
+
+    background-image: url("./assets/people.jpg");
+    background-position: -80px -20px;
+    background-repeat: no-repeat;
+    background-size: 1235px;
+}
+
+.palestra-formulario{
+    background-color: rgba(255, 255, 255, 0.603);
+
+    width: 300px;
+    height: 530px;
+
+    position: absolute;
+    left: 95%;
+    top: 50%;
+
+    transform: translate(-95%, -50%)
+}
+
+.content{
+    margin: 10px;
+}
+
+input[type=text], input[type=email]{
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px 1px #ddd inset;
+}
+
+select{
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px 1px #ddd inset;
+}
+
+input[type=submit]{
+    width: 100%;
+    margin: 8px 0px;
+    padding: 30px 0px;
+
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px 1px #ddd inset;
+}
+
+/* ----------------------------- */
+
+.palestrante-block{
+    background-color: rgb(31, 31, 31);
+
+    margin: auto;
+    padding: 50px 0px;
+    width: 60%;
+    height: 225px;
+}
+
+.palestrante-inside-block{
+    margin: auto;
+    width: 50%;
+    height: 300px;
+}
+
+.procurado{
+    width: 150px;
+    float: left;
+    padding: 0px 30px 10px 0px;
+
+}
+
+.palestrante-info{
+    font-size: 0.9rem;
+}
+
+h2 {
+    font-family: sans-serif;
+    
+    padding: 0px;
+    margin: 0px 0px 10px 0px;
+
+}
+
+@media screen and (max-width: 1703px){
+    
+    
+
+    .palestrante-block{
+        text-align: center;
+    }
+
+    .palestrante-inside-block{
+        position: relative;
+    }
+
+    .procurado{
+        float: none;
+        padding: 0px;
+    }
+
+    .palestrante-info{
+        margin-top: 10px;
+    }
+
+    h2{
+        position: absolute;
+        left: 50%;
+        bottom: 300px;
+        width: 200px;
+
+        transform: translate(-50%);
+    }
+
+    .palestra-formulario{
+
+        position: unset;
+        margin: auto;
+
+        transform: translate(0%, 0%)
+    }
+
+    .texto2{
+
+    }
+}
