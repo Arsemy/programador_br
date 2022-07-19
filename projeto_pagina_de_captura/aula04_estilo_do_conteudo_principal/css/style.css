@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: black;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* ----------------------------------- */
+
+header{
+    background: #31AED2;
+
+    padding: 10px;
+    text-align: center;
+   
+    font-size: 0.9rem;
+    color: white;
+}
+
+/* ----------------------------------- */
+
+section{
+    background-image: url(../assets/people.jpg);
+
+    padding: 25px;
+    overflow: hidden;
+}
+
+.container-form{
+    background: #ffffffbb;
+    
+    max-width: 225px;
+    padding: 25px;
+
+    float: right;
+}
+
+.title-form{
+    font-size: 1rem;
+}
+
+.mb{
+    margin-bottom: 15px;
+}
+
+input, select{
+    border: none;
+    
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0px;
+    
+    box-sizing: border-box;
+}
+
+select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    
+    background-image: url(../assets/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+}
+
+input[type=submit]{
+    background: #31AED2;
+    color: white;
+
+    font-weight: bold;
+}
