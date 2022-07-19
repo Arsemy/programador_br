@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: black;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* ----------------------------------- */
+
+header{
+    background: #31AED2;
+
+    padding: 10px;
+    text-align: center;
+   
+    font-size: 0.9rem;
+    color: white;
+}
+
+/* ----------------------------------- */
+
+.container-form{
+    color: white;
+}
